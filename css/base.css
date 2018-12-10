@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    text-align-last: center;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*desktop*/
+@media screen and (min-width: 768px) {
+
+    body {
+        max-width: 960px;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+/*mobile*/
+@media screen and (min-width: 480px) {
+
+    body {
+        max-width: 480px;
+        height: 700;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width: 600px) {
+
+    body {
+        max-width: 768px;
+        height: 700px;
+    }
+}
