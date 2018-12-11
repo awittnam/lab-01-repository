@@ -1,0 +1,140 @@
+header {
+    border: .5px solid black;
+    background: blue;
+  }
+  
+  aside {
+    border: .5px solid black;
+    background: red;
+  }
+  
+  .portionOne div:nth-child(1) {
+    border: .5px solid black;
+    background: green;
+  }
+  
+  .portionOne div:nth-child(2) {
+    border: .5px solid black;
+    background: aqua;
+  }
+  
+  .portionTwo div:nth-child(1) {
+    border: .5px solid black;
+    background: purple;
+  }
+  
+  .portionTwo div:nth-child(2) {
+    border: .5px solid black;
+    background: orange;
+  }
+  
+  .portionTwo div:nth-child(3) {
+    border: .5px solid black;
+    background: crimson;
+  } 
+  
+  .portionTwo div:nth-child(4) {
+    border: .5px solid black;
+    background: violet;
+  }
+  
+  footer {
+    border: .5px solid black;
+    background: olive;
+  }
+  
+  @media screen and (min-width: 600px) {
+  
+    header {
+      border: .5px solid black;
+      background: rgb(0, 255, 0);
+    }
+    
+    aside {
+      border: .5px solid black;
+      background: rgb(80, 3, 3);
+    }
+    
+    .portionOne div:nth-child(1) {
+      border: .5px solid black;
+      background: rgb(248, 146, 51);
+    }
+    
+    .portionOne div:nth-child(2) {
+      border: .5px solid black;
+      background: rgb(45, 87, 87);
+    }
+    
+    .portionTwo div:nth-child(1) {
+      border: .5px solid black;
+      background: rgb(241, 47, 241);
+    }
+    
+    .portionTwo div:nth-child(2) {
+      border: .5px solid black;
+      background: rgb(22, 57, 172);
+    }
+    
+    .portionTwo div:nth-child(3) {
+      border: .5px solid black;
+      background: rgb(20, 173, 220);
+    } 
+    
+    .portionTwo div:nth-child(4) {
+      border: .5px solid black;
+      background: rgb(99, 6, 99);
+    }
+    
+    footer {
+      border: .5px solid black;
+      background: rgb(240, 240, 7);
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+  
+    header {
+      border: .5px solid black;
+      background: blue;
+    }
+    
+    aside {
+      border: .5px solid black;
+      background: red;
+    }
+    
+    .portionOne div:nth-child(1) {
+      border: .5px solid black;
+      background: green;
+    }
+    
+    .portionOne div:nth-child(2) {
+      border: .5px solid black;
+      background: aqua;
+    }
+    
+    .portionTwo div:nth-child(1) {
+      border: .5px solid black;
+      background: purple;
+    }
+    
+    .portionTwo div:nth-child(2) {
+      border: .5px solid black;
+      background: orange;
+    }
+  
+    .portionTwo div:nth-child(3) {
+      border: .5px solid black;
+      background: crimson;
+    } 
+    
+    .portionTwo div:nth-child(4) {
+      border: .5px solid black;
+      background: violet;
+    }
+    
+    footer {
+      border: .5px solid black;
+      background: olive;
+    }
+  }
