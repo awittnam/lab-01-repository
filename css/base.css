@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+<<<<<<< HEAD
     text-align: center;
   }
   
@@ -37,3 +38,42 @@
     }
   }
 
+=======
+    text-align-last: center;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*desktop*/
+@media screen and (min-width: 768px) {
+
+    body {
+        max-width: 960px;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+/*mobile*/
+@media screen and (min-width: 480px) {
+
+    body {
+        max-width: 480px;
+        height: 700;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width: 600px) {
+
+    body {
+        max-width: 768px;
+        height: 700px;
+    }
+}
+>>>>>>> 0e4d4e00171aa8eb214e533f1c8fd34c5d707bcf
