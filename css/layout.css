@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/*  Mobile view */
-=======
 /*---Mobile view---*/
->>>>>>> 0e4d4e00171aa8eb214e533f1c8fd34c5d707bcf
 @media screen and (min-width: 480px) {
 
     header {
@@ -49,11 +45,7 @@
     }
   }
   
-<<<<<<< HEAD
-  /* Tablet View */
-=======
   /*---Tablet View---*/
->>>>>>> 0e4d4e00171aa8eb214e533f1c8fd34c5d707bcf
   @media screen and (min-width: 600px){
   
     body {
@@ -117,11 +109,7 @@
     }
   }
   
-<<<<<<< HEAD
-  /* Desktop View */
-=======
   /*---Desktop View---*/
->>>>>>> 0e4d4e00171aa8eb214e533f1c8fd34c5d707bcf
   @media screen and (min-width: 768px) {
   
     body {
